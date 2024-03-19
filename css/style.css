@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+div img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+    width: 24%;
+    margin: 5px;
+    padding: 2px;
+}
+
+/* First Media Query for Tablet View */
+@media screen and (max-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        margin: 5px;
+        padding: 2px;
+    }
+
+    div img {
+        max-height: 30vh;
+    }
+}
+
+/* Second Media Query for Large Screen View */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
